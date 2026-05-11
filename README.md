@@ -1,4 +1,4 @@
-## Open Source Projects
+## O. Lopatnov's Open Source Code
 
 ### Applications
 
