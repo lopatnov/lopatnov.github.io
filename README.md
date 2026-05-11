@@ -131,11 +131,11 @@ Lightweight Node.js CLI for serving static files and reverse-proxying API reques
 
 ---
 
-### [browser-tab-ipc](https://github.com/lopatnov/browser-tab-ipc)
+### [🌐 browser-tab-ipc](https://lopatnov.github.io/browser-tab-ipc/)
 
 Cross-tab messaging with automatic transport selection: BroadcastChannel → SharedWorker → SessionStorage fallback. EventEmitter-based API, fully typed, supports ESM, CommonJS, and UMD. Works in all browsers via SessionStorage fallback.
 
-[![demo](https://img.shields.io/badge/demo-7B2FBE?style=flat&logo=googlechrome&logoColor=white)](https://lopatnov.github.io/browser-tab-ipc/)
+[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/lopatnov/browser-tab-ipc)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Rollup](https://img.shields.io/badge/Rollup-EC4A3F?style=flat&logo=rollupdotjs&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
