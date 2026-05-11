@@ -1,5 +1,3 @@
-# O. Lopatnov's Open Source Code
-
 > Welcome to my digital garden.
 
 ## Applications
