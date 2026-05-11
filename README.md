@@ -1,8 +1,10 @@
-## O. Lopatnov's Open Source Code
+# O. Lopatnov's Open Source Code
 
-### Applications
+> Welcome to my digital garden.
 
-#### [🌐 pressmark](https://lopatnov.github.io/pressmark/) — Self-hosted RSS reader with a community feed
+## Applications
+
+### [🌐 pressmark](https://lopatnov.github.io/pressmark/) — Self-hosted RSS reader with a community feed
 
 A full-stack RSS aggregator combining personal subscriptions with a public community layer. Users subscribe to any RSS source, track read/unread state, and upvote articles — top-liked items surface on a shared community page. Includes daily email digests, 18 locales, and an admin panel for site configuration.
 
@@ -30,7 +32,7 @@ A full-stack RSS aggregator combining personal subscriptions with a public commu
 
 ---
 
-#### [🌐 mise](https://lopatnov.github.io/mise/) — Self-hosted recipe manager
+### [🌐 mise](https://lopatnov.github.io/mise/) — Self-hosted recipe manager
 
 A self-hosted recipe platform you fully own. Create recipes with ingredients, step-by-step instructions, and per-step photos. Discover recipes by tags and categories, import from any URL, bookmark favorites, and share publicly. Supports multiple users with role management and invite links. 33 languages · dark/light theme · print-optimized layouts.
 
@@ -57,7 +59,7 @@ A self-hosted recipe platform you fully own. Create recipes with ingredients, st
 
 ---
 
-#### [🌐 translate](https://lopatnov.github.io/translate/) — Local-first translation and speech API
+### [🌐 translate](https://lopatnov.github.io/translate/) — Local-first translation and speech API
 
 A self-hosted gRPC service for text translation, language detection, and speech-to-text — all models run locally with no cloud dependencies. Multiple translation models can be configured by name and selected per request. Translation: M2M-100, NLLB-200 · Speech-to-Text: Whisper.net · Language detection: FastText LID-176, GlotLID.
 
@@ -73,7 +75,7 @@ A self-hosted gRPC service for text translation, language detection, and speech-
 
 ---
 
-#### [🌐 pdf-concatenator](https://lopatnov.github.io/pdf-concatenator/) — PDF merge tool for Windows
+### [🌐 pdf-concatenator](https://lopatnov.github.io/pdf-concatenator/) — PDF merge tool for Windows
 
 A Windows desktop utility for merging multiple PDF files into a single document. Manage a numbered file list, reorder and remove entries, set the output path and filename, then generate the merged PDF in one click.
 
@@ -86,7 +88,7 @@ A Windows desktop utility for merging multiple PDF files into a single document.
 
 ---
 
-#### [ovms-continue](https://github.com/lopatnov/ovms-continue) — Local AI code assistant via OpenVINO
+### [ovms-continue](https://github.com/lopatnov/ovms-continue) — Local AI code assistant via OpenVINO
 
 Configuration and setup for running local AI code completion and chat in VS Code using the Continue extension backed by OpenVINO Model Server. Supports Qwen2.5-Coder models from 0.5B to 14B — choose the size that fits your hardware. Optimized for Intel Arc GPUs, also works on CPU/NPU.
 
@@ -98,9 +100,9 @@ Configuration and setup for running local AI code completion and chat in VS Code
 
 ---
 
-### npm Packages
+## npm Packages
 
-#### [🌐 rollup-plugin-uglify](https://lopatnov.github.io/rollup-plugin-uglify/)
+### [🌐 rollup-plugin-uglify](https://lopatnov.github.io/rollup-plugin-uglify/)
 
 Rollup plugin for minifying JavaScript bundles with Terser. Zero-config for basic use; fully configurable for compression level, variable name mangling, source maps, and ES target version. Supports both `renderChunk` and `transform` Rollup hooks.
 
@@ -115,7 +117,7 @@ Rollup plugin for minifying JavaScript bundles with Terser. Zero-config for basi
 
 ---
 
-#### [🌐 express-reverse-proxy](https://lopatnov.github.io/express-reverse-proxy/)
+### [🌐 express-reverse-proxy](https://lopatnov.github.io/express-reverse-proxy/)
 
 Lightweight Node.js CLI for serving static files and reverse-proxying API requests — zero-config start with a `--init` wizard, virtual hosting, HTTPS/SSL, hot reload, rate limiting, Basic Auth, round-robin load balancing, PM2 cluster mode, and Docker support.
 
@@ -131,7 +133,7 @@ Lightweight Node.js CLI for serving static files and reverse-proxying API reques
 
 ---
 
-#### [browser-tab-ipc](https://github.com/lopatnov/browser-tab-ipc)
+### [browser-tab-ipc](https://github.com/lopatnov/browser-tab-ipc)
 
 Cross-tab messaging with automatic transport selection: BroadcastChannel → SharedWorker → SessionStorage fallback. EventEmitter-based API, fully typed, supports ESM, CommonJS, and UMD. Works in all browsers via SessionStorage fallback.
 
@@ -147,7 +149,7 @@ Cross-tab messaging with automatic transport selection: BroadcastChannel → Sha
 
 ---
 
-#### [worker-from-string](https://github.com/lopatnov/worker-from-string)
+### [worker-from-string](https://github.com/lopatnov/worker-from-string)
 
 Create Web Workers from inline strings at runtime — no separate script files needed. Uses Blob API and URL.createObjectURL under the hood; works in any browser that supports Web Workers.
 
@@ -160,7 +162,7 @@ Create Web Workers from inline strings at runtime — no separate script files n
 
 ---
 
-#### [🌐 jsToString](https://lopatnov.github.io/jsToString/)
+### [🌐 jsToString](https://lopatnov.github.io/jsToString/)
 
 Serialize any JavaScript value — including functions, circular references, cross-references, Maps, Sets, TypedArrays, generators, and Date objects — back to evaluable source code.
 
@@ -174,7 +176,7 @@ Serialize any JavaScript value — including functions, circular references, cro
 
 ---
 
-#### [🌐 make-iterable](https://lopatnov.github.io/make-iterable/)
+### [🌐 make-iterable](https://lopatnov.github.io/make-iterable/)
 
 Transform plain objects, functions, and class prototypes into iterable, array-like entities. Implements `Symbol.iterator` and attaches all `Array.prototype` methods — works with `for...of` and spread operators out of the box.
 
@@ -187,7 +189,7 @@ Transform plain objects, functions, and class prototypes into iterable, array-li
 
 ---
 
-#### [🌐 join](https://lopatnov.github.io/join/)
+### [🌐 join](https://lopatnov.github.io/join/)
 
 SQL-style join operations for JavaScript objects: left, right, inner, full, and 5 more — controlled via a 4-bit flag system. Supports deep merging of nested structures and a curried API for composition.
 
@@ -202,7 +204,7 @@ SQL-style join operations for JavaScript objects: left, right, inner, full, and 
 
 ---
 
-#### [🌐 callable](https://lopatnov.github.io/callable/)
+### [🌐 callable](https://lopatnov.github.io/callable/)
 
 Abstract base class for creating class instances that are directly callable as functions. Four implementation strategies (`Bind`, `Callee`, `Closure`, `Proxy`) to suit different runtime environments and strict mode requirements.
 
@@ -217,7 +219,7 @@ Abstract base class for creating class instances that are directly callable as f
 
 ---
 
-#### [🌐 get-internal-type](https://lopatnov.github.io/get-internal-type/)
+### [🌐 get-internal-type](https://lopatnov.github.io/get-internal-type/)
 
 Reliably detect the internal JavaScript `[[Class]]` of any value at runtime — primitives, functions, collections, generators, typed arrays, weak references, and more. Works consistently across browsers and Node.js.
 
@@ -232,7 +234,7 @@ Reliably detect the internal JavaScript `[[Class]]` of any value at runtime — 
 
 ---
 
-#### [🌐 namespace](https://lopatnov.github.io/namespace/)
+### [🌐 namespace](https://lopatnov.github.io/namespace/)
 
 Modular namespace ecosystem for structured JavaScript applications. Dot-path navigation for nested values, event subscriptions that bubble to root, integrated SPA routing with lazy-loading, and serialization/cloning. Tree-shakeable, zero dependencies.
 
@@ -246,7 +248,7 @@ Modular namespace ecosystem for structured JavaScript applications. Dot-path nav
 
 ---
 
-#### [🌐 translate-mcp](https://lopatnov.github.io/translate-mcp/)
+### [🌐 translate-mcp](https://lopatnov.github.io/translate-mcp/)
 
 MCP server that exposes the [Lopatnov.Translate](https://github.com/lopatnov/translate) service as AI tools — speech-to-text, text translation, and language detection via gRPC, all running locally without cloud dependencies.
 
@@ -260,7 +262,7 @@ MCP server that exposes the [Lopatnov.Translate](https://github.com/lopatnov/tra
 
 ---
 
-### Planned / Work in Progress
+## Planned / Work in Progress
 
 | Project                                                            | Description                               | Stack                |
 | ------------------------------------------------------------------ | ----------------------------------------- | -------------------- |
