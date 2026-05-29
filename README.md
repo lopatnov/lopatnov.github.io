@@ -98,6 +98,29 @@ Configuration and setup for running local AI code completion and chat in VS Code
 
 ---
 
+### [conduit](https://github.com/lopatnov/conduit) — High-performance reverse proxy and static file server
+
+Production-grade reverse proxy and static file server built on [Cloudflare Pingora](https://github.com/cloudflare/pingora). Serves static files, proxies to backends, terminates TLS, and load-balances across 7 strategies — configured with a single JSON file, packaged as a **single binary with no runtime dependencies**. Features: Auto-TLS (Let's Encrypt), hot config reload without restart, Rhai middleware scripting, Prometheus metrics, browser hot reload, file uploads, proxy caching (memory / Redis / disk), and rate limiting.
+
+[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/lopatnov/conduit)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![Cloudflare Pingora](https://img.shields.io/badge/Cloudflare_Pingora-F48120?style=flat&logo=cloudflare&logoColor=white)
+![Tokio](https://img.shields.io/badge/Tokio-000000?style=flat)
+![Axum](https://img.shields.io/badge/Axum-000000?style=flat)
+![rustls](https://img.shields.io/badge/rustls-5C5C5C?style=flat)
+![instant-acme](https://img.shields.io/badge/Let's_Encrypt_ACME-003A70?style=flat)
+![Rhai](https://img.shields.io/badge/Rhai_scripting-5C5C5C?style=flat)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Apache 2.0](https://img.shields.io/badge/Apache_2.0-D22128?style=flat)
+[![crates.io](https://img.shields.io/crates/v/lopatnov-conduit.svg?style=flat&label=crates.io)](https://crates.io/crates/lopatnov-conduit)
+[![crates.io downloads](https://img.shields.io/crates/d/lopatnov-conduit.svg?style=flat&label=crates.io+downloads)](https://crates.io/crates/lopatnov-conduit)
+[![npm downloads](https://img.shields.io/npm/dt/@lopatnov/conduit.svg?style=flat&label=npm+downloads)](https://www.npmjs.com/package/@lopatnov/conduit)
+
+---
+
 ## npm Packages
 
 ### [🌐 rollup-plugin-uglify](https://lopatnov.github.io/rollup-plugin-uglify/)
@@ -257,27 +280,6 @@ MCP server that exposes the [Lopatnov.Translate](https://github.com/lopatnov/tra
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat)
 ![Apache 2.0](https://img.shields.io/badge/Apache_2.0-D22128?style=flat)
 [![downloads](https://img.shields.io/npm/dt/@lopatnov/translate-mcp?style=flat&label=downloads)](https://www.npmjs.com/package/@lopatnov/translate-mcp)
-
----
-
-### [conduit](https://github.com/lopatnov/conduit) — High-performance reverse proxy and static file server
-
-Production-grade reverse proxy and static file server built on [Cloudflare Pingora](https://github.com/cloudflare/pingora). Serves static files, proxies to backends, terminates TLS, and load-balances across 7 strategies — configured with a single JSON file, packaged as a **single binary with no runtime dependencies**. Features: Auto-TLS (Let's Encrypt), hot config reload without restart, Rhai middleware scripting, Prometheus metrics, browser hot reload, file uploads, proxy caching (memory / Redis / disk), and rate limiting.
-
-[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/lopatnov/conduit)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-![Cloudflare Pingora](https://img.shields.io/badge/Cloudflare_Pingora-F48120?style=flat&logo=cloudflare&logoColor=white)
-![Tokio](https://img.shields.io/badge/Tokio-000000?style=flat)
-![Axum](https://img.shields.io/badge/Axum-000000?style=flat)
-![rustls](https://img.shields.io/badge/rustls-5C5C5C?style=flat)
-![instant-acme](https://img.shields.io/badge/Let's_Encrypt_ACME-003A70?style=flat)
-![Rhai](https://img.shields.io/badge/Rhai_scripting-5C5C5C?style=flat)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Apache 2.0](https://img.shields.io/badge/Apache_2.0-D22128?style=flat)
-[![crates.io](https://img.shields.io/crates/v/lopatnov-conduit.svg?style=flat&label=crates.io)](https://crates.io/crates/lopatnov-conduit)
 
 ---
 
