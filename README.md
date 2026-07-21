@@ -128,11 +128,12 @@ Production-grade reverse proxy and static file server built on [Cloudflare Pingo
 Rollup plugin for minifying JavaScript bundles with Terser. Zero-config for basic use; fully configurable for compression level, variable name mangling, source maps, and ES target version. Supports both `renderChunk` and `transform` Rollup hooks.
 
 [![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/lopatnov/rollup-plugin-uglify)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript_7-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Rollup](https://img.shields.io/badge/Rollup_4-EC4A3F?style=flat&logo=rollupdotjs&logoColor=white)
+![esbuild](https://img.shields.io/badge/esbuild-FFCF00?style=flat&logo=esbuild&logoColor=black)
 ![Terser](https://img.shields.io/badge/Terser-3C3C3C?style=flat)
 ![pluginutils](https://img.shields.io/badge/%40rollup%2Fpluginutils-EC4A3F?style=flat&logo=rollupdotjs&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white)
 ![Apache 2.0](https://img.shields.io/badge/Apache_2.0-D22128?style=flat)
 [![downloads](https://img.shields.io/npm/dt/@lopatnov/rollup-plugin-uglify?style=flat&label=downloads)](https://www.npmjs.com/package/@lopatnov/rollup-plugin-uglify)
 
