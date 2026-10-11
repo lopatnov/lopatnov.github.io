@@ -86,18 +86,6 @@ A Windows desktop utility for merging multiple PDF files into a single document.
 
 ---
 
-### [ovms-continue](https://github.com/lopatnov/ovms-continue) — Local AI code assistant via OpenVINO
-
-Configuration and setup for running local AI code completion and chat in VS Code using the Continue extension backed by OpenVINO Model Server. Supports Qwen2.5-Coder models from 0.5B to 14B — choose the size that fits your hardware. Optimized for Intel Arc GPUs, also works on CPU/NPU.
-
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
-![Continue](https://img.shields.io/badge/Continue-5B5BD6?style=flat)
-![OpenVINO](https://img.shields.io/badge/OpenVINO_2025.3-0071C5?style=flat&logo=intel&logoColor=white)
-![Qwen 2.5 Coder](https://img.shields.io/badge/Qwen_2.5_Coder-FF6A00?style=flat)
-![Apache 2.0](https://img.shields.io/badge/Apache_2.0-D22128?style=flat)
-
----
-
 ### [conduit](https://github.com/lopatnov/conduit) — High-performance reverse proxy and static file server
 
 Production-grade reverse proxy and static file server built on [Cloudflare Pingora](https://github.com/cloudflare/pingora). Serves static files, proxies to backends, terminates TLS, and load-balances across 7 strategies — configured with a single JSON file, packaged as a **single binary with no runtime dependencies**. Features: Auto-TLS (Let's Encrypt), hot config reload without restart, Rhai middleware scripting, Prometheus metrics, browser hot reload, file uploads, proxy caching (memory / Redis / disk), and rate limiting.
