@@ -73,7 +73,7 @@ A self-hosted gRPC service for text translation, language detection, and speech-
 
 ---
 
-#### [translate-angular]([https://github.com/lopatnov/translate-angular](https://lopatnov.github.io/translate-angular/)) — Web testing studio for the Translate gRPC service
+#### [🌐 translate-angular](https://github.com/lopatnov/translate-angular) — Web testing studio for the Translate gRPC service
 
 A standalone Angular 21 web application that exercises every endpoint of the Lopatnov.Translate gRPC service through a clean browser UI — no `grpcurl` commands needed. Seven pages: text translation with auto-detect, language detection, JSON localization file translation, speech-to-text with browser microphone recording, text-to-speech, speech-to-speech end-to-end, and live streaming translation with Voice Activity Detection. Distributable as a Docker image or npm package.
 
