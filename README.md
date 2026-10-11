@@ -73,6 +73,36 @@ A self-hosted gRPC service for text translation, language detection, and speech-
 
 ---
 
+#### [translate-angular]([https://github.com/lopatnov/translate-angular](https://lopatnov.github.io/translate-angular/)) — Web testing studio for the Translate gRPC service
+
+A standalone Angular 21 web application that exercises every endpoint of the Lopatnov.Translate gRPC service through a clean browser UI — no `grpcurl` commands needed. Seven pages: text translation with auto-detect, language detection, JSON localization file translation, speech-to-text with browser microphone recording, text-to-speech, speech-to-speech end-to-end, and live streaming translation with Voice Activity Detection. Distributable as a Docker image or npm package.
+
+[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/lopatnov/translate-angular)
+![Angular](https://img.shields.io/badge/Angular_21-DD0031?style=flat&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Express](https://img.shields.io/badge/Express_5-000000?style=flat&logo=express&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Apache 2.0](https://img.shields.io/badge/Apache_2.0-D22128?style=flat)
+[![downloads](https://img.shields.io/npm/dt/@lopatnov/translate-angular?style=flat&label=downloads)](https://www.npmjs.com/package/@lopatnov/translate-angular)
+
+---
+
+### [🌐 translate-mcp](https://lopatnov.github.io/translate-mcp/) - MCP server for translate service
+
+MCP server that exposes the [Lopatnov.Translate](https://github.com/lopatnov/translate) service as AI tools — speech-to-text, text translation, and language detection via gRPC, all running locally without cloud dependencies.
+
+[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/lopatnov/translate-mcp)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat)
+![Apache 2.0](https://img.shields.io/badge/Apache_2.0-D22128?style=flat)
+[![downloads](https://img.shields.io/npm/dt/@lopatnov/translate-mcp?style=flat&label=downloads)](https://www.npmjs.com/package/@lopatnov/translate-mcp)
+
+---
+
 ### [🌐 pdf-concatenator](https://lopatnov.github.io/pdf-concatenator/) — PDF merge tool for Windows
 
 A Windows desktop utility for merging multiple PDF files into a single document. Manage a numbered file list, reorder and remove entries, set the output path and filename, then generate the merged PDF in one click.
@@ -258,25 +288,10 @@ Modular namespace ecosystem for structured JavaScript applications. Dot-path nav
 
 ---
 
-### [🌐 translate-mcp](https://lopatnov.github.io/translate-mcp/)
-
-MCP server that exposes the [Lopatnov.Translate](https://github.com/lopatnov/translate) service as AI tools — speech-to-text, text translation, and language detection via gRPC, all running locally without cloud dependencies.
-
-[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/lopatnov/translate-mcp)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
-![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat)
-![Apache 2.0](https://img.shields.io/badge/Apache_2.0-D22128?style=flat)
-[![downloads](https://img.shields.io/npm/dt/@lopatnov/translate-mcp?style=flat&label=downloads)](https://www.npmjs.com/package/@lopatnov/translate-mcp)
-
----
-
 ## Planned / Work in Progress
 
 | Project                                                            | Description                               | Stack                |
 | ------------------------------------------------------------------ | ----------------------------------------- | -------------------- |
-| [translate-angular](https://github.com/lopatnov/translate-angular) | Angular client for the Translate gRPC API | Angular · TypeScript |
 | [tereveni](https://github.com/lopatnov/tereveni)                   | Experimental project                      | .NET                 |
 
 ---
